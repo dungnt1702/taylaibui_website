@@ -25,7 +25,9 @@ h1, h2 {
   margin: 20px;
   border-radius: 10px;
 }
-
+.links {
+  text-align: center;
+}
 ul {
   padding-left: 20px;
 }
