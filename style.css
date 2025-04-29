@@ -1,10 +1,10 @@
-
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(to bottom, #d2691e, #3e1e00);
   color: #fff6e5;
 }
+
 header {
   background: #ff6600;
   padding: 20px;
@@ -13,32 +13,40 @@ header {
 .logo {
   width: 140px;
 }
+
 h1, h2 {
   margin: 0 0 10px 0;
   color: #fff;
 }
+
 .intro, .hours, .gallery, .links {
   padding: 20px;
   background: rgba(0, 0, 0, 0.4);
   margin: 20px;
   border-radius: 10px;
 }
+
 ul {
   padding-left: 20px;
 }
+
 .image-slider {
   display: flex;
   overflow-x: auto;
   gap: 10px;
+  padding-top: 10px;
 }
+
 .slide-img {
   height: 200px;
   border-radius: 8px;
-  transition: transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
 }
 .slide-img:hover {
   transform: scale(1.05);
+  opacity: 0.9;
 }
+
 .social-links a {
   display: inline-block;
   margin: 8px;
@@ -48,7 +56,12 @@ ul {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  transition: background 0.3s;
 }
+.social-links a:hover {
+  background: #ff8800;
+}
+
 footer {
   text-align: center;
   background: #2d1200;
